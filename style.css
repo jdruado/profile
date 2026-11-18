@@ -1,0 +1,34 @@
+:root {
+    --bs-primary-base: #2A398D;
+    --bs-primary-bg: #2A398D;
+    --bs-primary-contrast: #DDDDFF;
+
+    --bs-accent-base: #B0B9E8;
+    --bs-accent-bg: #C0C7ED;
+    --bs-accent-contrast: #2A398D;
+
+    --bs-bg-body: #DDDDFF;
+    --bs-fg-body: #2A398D;
+}
+
+.navbar-brand {
+    font-family: Playfair Display, Times, serif;
+    font-size: 1.5rem;
+}
+
+.navbar-brand .brand-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+h1, h2, h3 {
+    font-family: Playfair Display, Times, serif;
+}
+
+h4, h5, h6, p, a, li, span, label, input, button {
+    font-family: Montserrat, Arial, sans-serif;
+}
